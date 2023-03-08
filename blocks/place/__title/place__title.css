@@ -1,0 +1,24 @@
+.place__title {
+    margin: 0 0 48px;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+}
+
+
+  /* макет 768 */
+@media screen and (max-width: 1023px) {
+    .place__title {
+        font-size: 42px;
+        line-height: 46px;
+    }
+}
+  /* макет 320 */
+@media screen and (max-width: 767px) {
+    .place__title {
+        font-size: 32px;
+        line-height: 35px;
+        margin: 0 16px 32px;
+    }
+}
+  

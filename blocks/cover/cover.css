@@ -1,0 +1,27 @@
+.cover {
+    margin: 0 auto 92px;
+    padding: 0;
+    max-width: 1184px;
+}
+
+/* макет 1024 */
+@media screen and (max-width: 1279px) {
+    .cover {
+      max-width: 1024px;
+      padding: 0;
+    }
+}
+  /* макет 768 */
+@media screen and (max-width: 1023px) {
+    .cover {
+      max-width: 768px;
+      margin: 0 auto 88px;
+    }
+}
+  /* макет 320 */
+@media screen and (max-width: 767px) {
+    .header {
+        max-width: 320px;
+        margin: 0 auto 64px;
+    }
+}

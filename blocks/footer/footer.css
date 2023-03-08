@@ -1,0 +1,31 @@
+.footer {
+    max-width: 1184px;
+    margin: 0 auto;
+    padding: 0 0 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* макет 1024 */
+@media screen and (max-width: 1279px) {
+    .footer {
+        max-width: 928px;
+    }
+  }
+  /* макет 768 */
+@media screen and (max-width: 1023px) {
+    .footer {
+      max-width: 720px;
+      padding: 0 24px 24px;
+    }
+}
+  /* макет 320 */
+@media screen and (max-width: 767px) {
+    .footer {
+        flex-direction: column;
+        max-width: 186px;
+        padding: 0 0 24px 16px;
+        margin: 0;
+    }
+}
+  
