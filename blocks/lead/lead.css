@@ -22,7 +22,6 @@
   
 @media screen and (max-width: 767px) {
     .lead {
-      max-width: 100%;
       margin: 0 auto 64px;
     }
 }

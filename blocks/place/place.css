@@ -20,7 +20,7 @@
   /* макет 768 */
 @media screen and (max-width: 1023px) {
     .place {
-        margin: 0 0 72px 0;
+        margin: 0 0 73px 0;
         grid-template-columns: minmax(340px, 340px) minmax(352px, 352px);
         column-gap: 28px;
     }
@@ -31,6 +31,7 @@
         display: flex;
         flex-direction: column;
         align-items: start;
+        margin: 0 0 50px 0;
       }
 }
 
